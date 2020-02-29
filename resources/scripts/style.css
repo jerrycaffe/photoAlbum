@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+/* .logo img{
+    width: 40px;
+    background: #fff;
+} */
+
+/* General styling */
+a {
+  text-decoration: none;
+}
+
+.big-txt {
+  font-size: 2.8rem;
+}
+
+.bg-grey {
+  background: #6c757d !important;
+}
+
+.sm-btn {
+  padding: .5rem;
+  background: #fff;
+  border: 1px solid grey;
+  border-radius: .3rem;
+}
+
+.bg-danger {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+.big-btn {
+
+  padding: 7px 40px;
+  font-size: 16px;
+  border: 1px;
+  background: rgb(0, 105, 217);
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 20px;
+
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.display-none{
+  display: none;
+}
+
+/* End of Generic styling */
+
+/* Nav bar styling here */
+.navBar {
+
+  background: #343a40;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+
+}
+
+nav a {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 15px;
+}
+
+/* End of Navbar */
+
+/* Showcase also known as the middle page */
+.showcase {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0;
+  text-align: center;
+}
+
+.showcase-btns {
+  margin-top: 25px;
+}
+
+
+
+.album {
+  background: #f2f3f4;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.card {
+  background: #343a40;
+  border-radius: 10px;
+  flex-basis: 300px;
+  margin: 1rem;
+}
+
+.card img {
+  height: 19rem;
+  width: 27rem;
+}
+
+
+.card-body {
+
+  background: #fff;
+  padding: 1.5rem;
+}
+
+.card-footer {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.3rem auto;
+
+}
+
+.time {
+
+  align-self: end;
+  font-size: .8rem;
+
+}
+.count {
+	margin: 20px auto;
+	font-size: 2rem;
+	color: #0069d9;
+}
+
+/* Page footer starts here */
+footer {
+  padding: 60px;
+  color: gray;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
